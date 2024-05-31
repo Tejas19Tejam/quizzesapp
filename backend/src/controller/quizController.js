@@ -111,12 +111,20 @@ exports.getQuizzesStat = catchAsync(async (req, res, next) => {
     },
   ]);
 
+  // Check if stats is empty and return default stats if necessary
+  const defaultStats = {
+    _id: null,
+    numQuizzes: 0,
+    totalQuestions: 0,
+    totalImpressions: 0,
+  };
+
   // Log the result for debugging
 
   return res.status(200).json({
     status: "success",
     data: {
-      result: stats[0],
+      result: stats[0] || defaultStats,
     },
   });
 });

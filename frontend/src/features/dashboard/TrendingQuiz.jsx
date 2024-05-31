@@ -69,6 +69,7 @@ function TrendingQuizzes() {
   const { isLoading, quizzes, isEmpty } = useQuizzes();
 
   if (isLoading) return <Spinner />;
+
   return (
     <QuizzesContainer>
       <Heading as="h2">Trending Quizzes</Heading>
@@ -90,7 +91,7 @@ function TrendingQuizzes() {
           ))}
         </QuizList>
       ) : (
-        <Empty message="No trending quizzes." />
+        <Empty message="No trending quizzes" />
       )}
     </QuizzesContainer>
   );
