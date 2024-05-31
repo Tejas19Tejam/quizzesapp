@@ -1,0 +1,557 @@
+[
+  {
+    "title": "Quiz 1",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 0,
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "Identify this landmark.",
+        "options": [
+          { "imageUrl": "http://example.com/lion.jpg" },
+          { "imageUrl": "http://example.com/lion.jpg" },
+          { "imageUrl": "http://example.com/lion.jpg" },
+          { "imageUrl": "http://example.com/lion.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "Which animal is shown in the image?",
+        "options": [
+          { "imageUrl": "http://example.com/lion.jpg" },
+          { "imageUrl": "http://example.com/tiger.jpg" },
+          { "imageUrl": "http://example.com/leopard.jpg" },
+          { "imageUrl": "http://example.com/cheetah.jpg" }
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "title": "Quiz 2",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 0,
+    "author": "6658a8bd03b1530c9d917556",
+    "questions": [
+      {
+        "questionText": "Name this historic figure.",
+        "options": [
+          { "imageUrl": "http://example.com/figure1.jpg" },
+          { "imageUrl": "http://example.com/figure2.jpg" },
+          { "imageUrl": "http://example.com/figure3.jpg" },
+          { "imageUrl": "http://example.com/figure4.jpg" }
+        ],
+        "correctOption": 1
+      },
+      {
+        "questionText": "Identify this painting.",
+        "options": [
+          { "imageUrl": "http://example.com/painting1.jpg" },
+          { "imageUrl": "http://example.com/painting2.jpg" },
+          { "imageUrl": "http://example.com/painting3.jpg" },
+          { "imageUrl": "http://example.com/painting4.jpg" }
+        ],
+        "correctOption": 2
+      }
+    ]
+  },
+  {
+    "title": "Quiz 3",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 5,
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "What is the capital of France?",
+        "options": [
+          { "imageUrl": "http://example.com/paris.jpg" },
+          { "imageUrl": "http://example.com/berlin.jpg" },
+          { "imageUrl": "http://example.com/madrid.jpg" },
+          { "imageUrl": "http://example.com/rome.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "Which continent is Australia located in?",
+        "options": [
+          { "imageUrl": "http://example.com/asia.jpg" },
+          { "imageUrl": "http://example.com/europe.jpg" },
+          { "imageUrl": "http://example.com/africa.jpg" },
+          { "imageUrl": "http://example.com/australia.jpg" }
+        ],
+        "correctOption": 3
+      }
+    ]
+  },
+  {
+    "title": "Quiz 4",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 10,
+    "author": "6658a8bd03b1530c9d917556",
+    "questions": [
+      {
+        "questionText": "Who wrote 'Hamlet'?",
+        "options": [
+          { "imageUrl": "http://example.com/shakespeare.jpg" },
+          { "imageUrl": "http://example.com/marlowe.jpg" },
+          { "imageUrl": "http://example.com/dickens.jpg" },
+          { "imageUrl": "http://example.com/tolkien.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "Who wrote 'Hamlet'?",
+        "options": [
+          { "imageUrl": "http://example.com/shakespeare.jpg" },
+          { "imageUrl": "http://example.com/marlowe.jpg" },
+          { "imageUrl": "http://example.com/dickens.jpg" },
+          { "imageUrl": "http://example.com/tolkien.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "Which planet is known as the Red Planet?",
+        "options": [
+          { "imageUrl": "http://example.com/mars.jpg" },
+          { "imageUrl": "http://example.com/venus.jpg" },
+          { "imageUrl": "http://example.com/jupiter.jpg" },
+          { "imageUrl": "http://example.com/saturn.jpg" }
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "title": "Quiz 5",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 0,
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "What is the boiling point of water?",
+        "options": [
+          { "imageUrl": "http://example.com/100c.jpg" },
+          { "imageUrl": "http://example.com/90c.jpg" },
+          { "imageUrl": "http://example.com/80c.jpg" },
+          { "imageUrl": "http://example.com/70c.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the boiling point of water?",
+        "options": [
+          { "imageUrl": "http://example.com/100c.jpg" },
+          { "imageUrl": "http://example.com/90c.jpg" },
+          { "imageUrl": "http://example.com/80c.jpg" },
+          { "imageUrl": "http://example.com/70c.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the boiling point of water?",
+        "options": [
+          { "imageUrl": "http://example.com/100c.jpg" },
+          { "imageUrl": "http://example.com/90c.jpg" },
+          { "imageUrl": "http://example.com/80c.jpg" },
+          { "imageUrl": "http://example.com/70c.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the largest ocean on Earth?",
+        "options": [
+          { "imageUrl": "http://example.com/pacific.jpg" },
+          { "imageUrl": "http://example.com/atlantic.jpg" },
+          { "imageUrl": "http://example.com/indian.jpg" },
+          { "imageUrl": "http://example.com/arctic.jpg" }
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "title": "Quiz 6",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 10,
+    "impressions": 0,
+    "questions": [
+      {
+        "questionText": "What is the speed of light?",
+        "options": [
+          { "imageUrl": "http://example.com/300000km.jpg" },
+          { "imageUrl": "http://example.com/150000km.jpg" },
+          { "imageUrl": "http://example.com/200000km.jpg" },
+          { "imageUrl": "http://example.com/250000km.jpg" }
+        ],
+        "correctOption": 0,
+        "attemptCount": 0,
+        "correctAnswerCount": 0,
+        "incorrectAnswerCount": 0
+      },
+      {
+        "questionText": "What is the chemical symbol for water?",
+        "options": [
+          { "imageUrl": "http://example.com/h2o.jpg" },
+          { "imageUrl": "http://example.com/o2.jpg" },
+          { "imageUrl": "http://example.com/co2.jpg" },
+          { "imageUrl": "http://example.com/n2.jpg" }
+        ],
+        "correctOption": 0,
+        "attemptCount": 0,
+        "correctAnswerCount": 0,
+        "incorrectAnswerCount": 0
+      }
+    ]
+  },
+  {
+    "title": "Quiz 7",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 0,
+    "author": "6658a8bd03b1530c9d917556",
+    "questions": [
+      {
+        "questionText": "What is the capital of Japan?",
+        "options": [
+          { "imageUrl": "http://example.com/tokyo.jpg" },
+          { "imageUrl": "http://example.com/kyoto.jpg" },
+          { "imageUrl": "http://example.com/osaka.jpg" },
+          { "imageUrl": "http://example.com/nagoya.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the capital of Japan?",
+        "options": [
+          { "imageUrl": "http://example.com/tokyo.jpg" },
+          { "imageUrl": "http://example.com/kyoto.jpg" },
+          { "imageUrl": "http://example.com/osaka.jpg" },
+          { "imageUrl": "http://example.com/nagoya.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the main ingredient in guacamole?",
+        "options": [
+          { "imageUrl": "http://example.com/avocado.jpg" },
+          { "imageUrl": "http://example.com/tomato.jpg" },
+          { "imageUrl": "http://example.com/onion.jpg" },
+          { "imageUrl": "http://example.com/lemon.jpg" }
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "title": "Quiz 8",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 10,
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "What is the tallest mountain in the world?",
+        "options": [
+          { "imageUrl": "http://example.com/everest.jpg" },
+          { "imageUrl": "http://example.com/k2.jpg" },
+          { "imageUrl": "http://example.com/kanchenjunga.jpg" },
+          { "imageUrl": "http://example.com/lhotse.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the tallest mountain in the world?",
+        "options": [
+          { "imageUrl": "http://example.com/everest.jpg" },
+          { "imageUrl": "http://example.com/k2.jpg" },
+          { "imageUrl": "http://example.com/kanchenjunga.jpg" },
+          { "imageUrl": "http://example.com/lhotse.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the tallest mountain in the world?",
+        "options": [
+          { "imageUrl": "http://example.com/everest.jpg" },
+          { "imageUrl": "http://example.com/k2.jpg" },
+          { "imageUrl": "http://example.com/kanchenjunga.jpg" },
+          { "imageUrl": "http://example.com/lhotse.jpg" }
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "title": "Quiz 9",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 0,
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "What is the tallest mountain in the world?",
+        "options": [
+          { "imageUrl": "http://example.com/everest.jpg" },
+          { "imageUrl": "http://example.com/k2.jpg" },
+          { "imageUrl": "http://example.com/kanchenjunga.jpg" },
+          { "imageUrl": "http://example.com/lhotse.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the tallest mountain in the world?",
+        "options": [
+          { "imageUrl": "http://example.com/everest.jpg" },
+          { "imageUrl": "http://example.com/k2.jpg" },
+          { "imageUrl": "http://example.com/kanchenjunga.jpg" },
+          { "imageUrl": "http://example.com/lhotse.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "Which is the longest river in the world?",
+        "options": [
+          { "imageUrl": "http://example.com/nile.jpg" },
+          { "imageUrl": "http://example.com/amazon.jpg" },
+          { "imageUrl": "http://example.com/yellow.jpg" },
+          { "imageUrl": "http://example.com/mississippi.jpg" }
+        ],
+        "correctOption": 1
+      }
+    ]
+  },
+  {
+    "title": "Quiz 10",
+    "type": "q&a",
+    "optionsType": "url",
+    "timer": 5,
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "What is the capital of Italy?",
+        "options": [
+          { "imageUrl": "http://example.com/rome.jpg" },
+          { "imageUrl": "http://example.com/milan.jpg" },
+          { "imageUrl": "http://example.com/naples.jpg" },
+          { "imageUrl": "http://example.com/venice.jpg" }
+        ],
+        "correctOption": 0
+      },
+      {
+        "questionText": "What is the largest planet in our solar system?",
+        "options": [
+          { "imageUrl": "http://example.com/jupiter.jpg" },
+          { "imageUrl": "http://example.com/saturn.jpg" },
+          { "imageUrl": "http://example.com/earth.jpg" },
+          { "imageUrl": "http://example.com/mars.jpg" }
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+
+  {
+    "title": "Quiz 18",
+    "type": "poll",
+    "optionsType": "text",
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "Which type of food do you prefer?",
+        "options": [
+          { "text": "Pizza" },
+          { "text": "Burger" },
+          { "text": "Sushi" },
+          { "text": "Salad" }
+        ]
+      },
+      {
+        "questionText": "What is your favorite mode of transportation?",
+        "options": [
+          { "text": "Car" },
+          { "text": "Bicycle" },
+          { "text": "Bus" },
+          { "text": "Train" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Quiz 19",
+    "type": "poll",
+    "optionsType": "url",
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "Which destination would you like to visit?",
+        "options": [
+          { "imageUrl": "http://example.com/paris.jpg" },
+          { "imageUrl": "http://example.com/tokyo.jpg" },
+          { "imageUrl": "http://example.com/newyork.jpg" },
+          { "imageUrl": "http://example.com/london.jpg" }
+        ]
+      },
+      {
+        "questionText": "Which smartphone do you prefer?",
+        "options": [
+          { "imageUrl": "http://example.com/iphone.jpg" },
+          { "imageUrl": "http://example.com/samsung.jpg" },
+          { "imageUrl": "http://example.com/google.jpg" },
+          { "imageUrl": "http://example.com/huawei.jpg" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Quiz 20",
+    "type": "poll",
+    "optionsType": "text",
+    "author": "66572b55399642eec3ecf519",
+    "questions": [
+      {
+        "questionText": "What is your favorite color?",
+        "options": [
+          { "text": "Red" },
+          { "text": "Blue" },
+          { "text": "Green" },
+          { "text": "Yellow" }
+        ]
+      },
+      {
+        "questionText": "Which genre of music do you prefer?",
+        "options": [
+          { "text": "Pop" },
+          { "text": "Rock" },
+          { "text": "Jazz" },
+          { "text": "Classical" }
+        ]
+      },
+      {
+        "questionText": "What is your preferred exercise?",
+        "options": [
+          { "text": "Running" },
+          { "text": "Swimming" },
+          { "text": "Cycling" },
+          { "text": "Yoga" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Quiz 21",
+    "type": "poll",
+    "optionsType": "text_url",
+    "author": "6658a8bd03b1530c9d917556",
+    "questions": [
+      {
+        "questionText": "Which pet do you prefer?",
+        "options": [
+          {
+            "text": "Dog",
+            "imageUrl": "http://example.com/dog.jpg"
+          },
+          {
+            "text": "Cat",
+            "imageUrl": "http://example.com/cat.jpg"
+          },
+          {
+            "text": "Fish",
+            "imageUrl": "http://example.com/fish.jpg"
+          },
+          {
+            "text": "Bird",
+            "imageUrl": "http://example.com/bird.jpg"
+          }
+        ]
+      },
+      {
+        "questionText": "What is your favorite type of vacation?",
+        "options": [
+          {
+            "text": "Beach",
+            "imageUrl": "http://example.com/beach.jpg"
+          },
+          {
+            "text": "Mountain",
+            "imageUrl": "http://example.com/mountain.jpg"
+          },
+          {
+            "text": "City",
+            "imageUrl": "http://example.com/city.jpg"
+          },
+          {
+            "text": "Cruise",
+            "imageUrl": "http://example.com/cruise.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Quiz 22",
+    "type": "poll",
+    "optionsType": "text",
+    "author": "6658a8bd03b1530c9d917556",
+    "questions": [
+      {
+        "questionText": "What is your preferred coffee type?",
+        "options": [
+          { "text": "Espresso" },
+          { "text": "Latte" },
+          { "text": "Cappuccino" },
+          { "text": "Americano" }
+        ]
+      },
+      {
+        "questionText": "Which season do you like the most?",
+        "options": [
+          { "text": "Spring" },
+          { "text": "Summer" },
+          { "text": "Autumn" },
+          { "text": "Winter" }
+        ]
+      },
+      {
+        "questionText": "Which type of movie do you prefer?",
+        "options": [
+          { "text": "Action" },
+          { "text": "Comedy" },
+          { "text": "Drama" },
+          { "text": "Horror" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Quiz 23",
+    "type": "poll",
+    "optionsType": "url",
+    "author": "6658a8bd03b1530c9d917556",
+    "questions": [
+      {
+        "questionText": "Which of these animals do you find the cutest?",
+        "options": [
+          { "imageUrl": "http://example.com/puppy.jpg" },
+          { "imageUrl": "http://example.com/kitten.jpg" },
+          { "imageUrl": "http://example.com/bunny.jpg" },
+          { "imageUrl": "http://example.com/hamster.jpg" }
+        ]
+      },
+      {
+        "questionText": "Which landscape do you prefer?",
+        "options": [
+          { "imageUrl": "http://example.com/desert.jpg" },
+          { "imageUrl": "http://example.com/forest.jpg" },
+          { "imageUrl": "http://example.com/lake.jpg" },
+          { "imageUrl": "http://example.com/ocean.jpg" }
+        ]
+      }
+    ]
+  }
+]
