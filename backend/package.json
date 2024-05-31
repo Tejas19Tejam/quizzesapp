@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start:dev": "nodemon server.js",
-    "start": "NODE_ENV=production nodemon server.js"
+    "start": "cross-env NODE_ENV=production nodemon server.js"
   },
   "author": "Vasudev Tejam",
   "license": "ISC",
@@ -19,8 +19,11 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.5",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.0",
     "path": "^0.12.7",
     "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.2"
   }
 }
