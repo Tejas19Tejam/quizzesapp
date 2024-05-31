@@ -5,7 +5,7 @@ export function useQuizzesStats() {
   const { isLoading, data: stats } = useQuery({
     queryKey: ["quizzes-stats"],
     queryFn: getQuizzesStats,
-    retry: false,
+    retry: true,
   });
 
   return { isLoading, stats };

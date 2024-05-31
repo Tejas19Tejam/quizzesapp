@@ -15,7 +15,6 @@ export const createEditQuiz = catchAsync(async (newQuiz, id) => {
 
 export const getQuizzesStats = catchAsync(async () => {
   const { data } = await axiosPrivate.get("/quizzes/stats");
-  console.log(data?.data?.result);
   return data?.data?.result;
 });
 
@@ -26,7 +25,6 @@ export const deleteQuiz = catchAsync(async (id) => {
 
 export const getQuizzes = catchAsync(async () => {
   const { data } = await axiosPrivate.get("/quizzes");
-  console.log(data?.data?.result);
   return data?.data?.result;
 });
 
