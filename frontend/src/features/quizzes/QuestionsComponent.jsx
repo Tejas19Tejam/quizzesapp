@@ -106,7 +106,7 @@ function QuestionComponent() {
           >
             {option.text && <span>{option.text}</span>}
             {option.imageUrl && (
-              <img src="/img/img_option_1.png" alt="option-image" />
+              <img src={`${option.imageUrl}`} alt="option-image" />
             )}
           </Option>
         ))}

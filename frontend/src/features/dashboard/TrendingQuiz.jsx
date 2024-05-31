@@ -34,6 +34,7 @@ const Card = styled.div`
   & span,
   & svg {
     font-weight: 600;
+    white-space: nowrap;
   }
 `;
 
