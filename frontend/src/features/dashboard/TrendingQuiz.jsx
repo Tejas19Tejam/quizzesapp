@@ -28,6 +28,7 @@ const Card = styled.div`
   border-radius: var(--border-radius-sm);
   padding: 1.6rem;
   box-shadow: var(--shadow-sm);
+  margin-bottom: auto;
 
   & p,
   & span,
