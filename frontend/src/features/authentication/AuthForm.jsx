@@ -161,7 +161,6 @@ function AuthForm() {
           <FormRow label="Email">
             <Input
               type="email"
-              defaultValue="teh@tcs.com"
               placeholder={errors?.email?.message}
               {...register("email", {
                 required: "User must have a mail.",
@@ -174,7 +173,6 @@ function AuthForm() {
           <FormRow label="Password">
             <Input
               type="password"
-              defaultValue="12345678"
               placeholder={errors?.password?.message}
               {...register("password", {
                 required: "Please provide a password.",
@@ -191,7 +189,6 @@ function AuthForm() {
             <FormRow label="Confirm Password">
               <Input
                 type="password"
-                defaultValue="12345678"
                 placeholder={errors?.confirmedPassword?.message}
                 {...register("confirmedPassword", {
                   required: "Please provide a confirmedPassword.",
