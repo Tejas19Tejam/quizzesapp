@@ -32,10 +32,9 @@ const StyledResult = styled(Row)`
 function Result() {
   const { type, points, numQuestions, id, selectedOptions, dispatch } =
     useQuiz();
-  const QUIZ_TYPE_Q_N_A = import.meta.env.VITE_QUIZ_TYPE_Q_N_A;
   // Ref to keep track of whether the quiz has been submitted
   const hasSubmitted = useRef(false);
-  console.log(points, numQuestions);
+  console.log(type);
 
   useEffect(() => {
     if (!id) return;
@@ -48,7 +47,7 @@ function Result() {
 
   return (
     <StyledResult>
-      {type === QUIZ_TYPE_Q_N_A ? (
+      {type === "q&a" ? (
         <QuizResult points={points} totalQuestions={numQuestions} />
       ) : (
         <PollComplete />

@@ -1,65 +1,5 @@
 import { createContext, useReducer, useContext } from "react";
 
-const poll = {
-  type: "Poll",
-  optionsType: "text_image",
-  impressions: 2,
-  questions: [
-    {
-      id: "356662",
-      questionText: "Which type of food do you prefer?", // Example question
-      options: [
-        {
-          text: "Pizza",
-          imageUrl: "http://example.com/pizza.jpg",
-          attemptCount: 150,
-        },
-        {
-          text: "Burger",
-          imageUrl: "http://example.com/burger.jpg",
-          attemptCount: 100,
-        },
-        {
-          text: "Sushi",
-          imageUrl: "http://example.com/sushi.jpg",
-          attemptCount: 80,
-        },
-        {
-          text: "Salad",
-          imageUrl: "http://example.com/salad.jpg",
-          attemptCount: 50,
-        },
-      ],
-    },
-    {
-      id: "356632",
-      questionText: "What is your favorite mode of transportation?", // Another example question
-      options: [
-        {
-          text: "Car",
-          imageUrl: "http://example.com/car.jpg",
-          attemptCount: 200,
-        },
-        {
-          text: "Bicycle",
-          imageUrl: "http://example.com/bicycle.jpg",
-          attemptCount: 60,
-        },
-        {
-          text: "Bus",
-          imageUrl: "http://example.com/bus.jpg",
-          attemptCount: 40,
-        },
-        {
-          text: "Train",
-          imageUrl: "http://example.com/train.jpg",
-          attemptCount: 80,
-        },
-      ],
-    },
-  ],
-};
-
 function updateState(
   { selectedOptions, points, questions, index, type },
   answer
@@ -162,7 +102,7 @@ function reducer(state, action) {
     case "finished":
       return {
         ...state,
-        type: state.type,
+
         status: "finished",
       };
     case "create":
