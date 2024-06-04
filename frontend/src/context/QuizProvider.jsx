@@ -5,7 +5,6 @@ function updateState(
   answer
 ) {
   const { correctOption, _id: questionId } = questions.at(index);
-  const QUIZ_TYPE_Q_N_A = import.meta.env.VITE_QUIZ_TYPE_Q_N_A;
 
   const existingIndex = selectedOptions.findIndex(
     (option) => option.questionId === questionId
@@ -17,7 +16,7 @@ function updateState(
     const wasCorrect = selectedOptions[existingIndex].answer === correctOption;
     const isCorrect = answer === correctOption;
 
-    if (type === QUIZ_TYPE_Q_N_A) {
+    if (type === "q&a") {
       if (wasCorrect && !isCorrect) {
         points--; // Decrease points if changing from correct to incorrect
       } else if (!wasCorrect && isCorrect) {
@@ -32,7 +31,7 @@ function updateState(
     return { selectedOptions, points };
   } else {
     // Adjust points
-    if (type === QUIZ_TYPE_Q_N_A) {
+    if (type === "q&a") {
       if (answer === correctOption) {
         points++; // Increase points if the new selection is correct
       }
