@@ -33,7 +33,7 @@ app.use(
 app.use(express.static(path.join(__dirname, "public")));
 
 // Body parser , reading data from body into req.body
-app.use(express.json({ limit: "10kb" }));
+app.use(express.json());
 
 app.use(morgan("dev"));
 
