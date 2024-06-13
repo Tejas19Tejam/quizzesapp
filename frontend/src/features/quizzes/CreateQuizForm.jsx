@@ -4,6 +4,7 @@ import QuizTabs from "./QuizTabs";
 import RadioButton from "../../ui/RadioButton";
 import Button from "../../ui/Button";
 import { Controller } from "react-hook-form";
+import useQuizForm from "./useQuizForm";
 
 const Section = styled.section`
   display: grid;
@@ -130,19 +131,9 @@ const TimeButton = styled(Button)`
     `}
 `;
 
-// const initialOption = { text: "", imageUrl: "" };
-// const initialQuestion = {
-//   questionText: "",
-//   options: [initialOption, initialOption],
-//   correctOption: 0,
-// };
-
 const MAX_OPTIONS = 4;
 
-import useQuizForm from "./useQuizForm";
-
 const CreateQuizForm = ({ onClose, quiz }) => {
-  // const { quizToEdit } = data;
   const {
     control,
     handleSubmit,
@@ -392,7 +383,7 @@ const ActionButtons = ({ onClose, isWorking }) => (
       type="submit"
       disabled={isWorking}
     >
-      {isWorking ? "Creating..." : "Create Quiz"}
+      {isWorking ? "Processing..." : "Create Quiz"}
     </Button>
   </Row>
 );

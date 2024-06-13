@@ -19,6 +19,8 @@ const port = process.env.DATABASE_PORT;
 
 // Create database connection
 const DB = process.env.DATABASE.replace("<PASSWORD>", process.env.DATABASE_PWD);
+// const DB = process.env.LOCAL_DATABASE;
+
 mongoose.connect(DB).then(() => {
   console.log("Connected to database");
 });

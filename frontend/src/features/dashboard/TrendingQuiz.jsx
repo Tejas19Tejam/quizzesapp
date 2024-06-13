@@ -68,16 +68,20 @@ const DateCreated = styled.p`
 `;
 
 function TrendingQuizzes() {
-  const { isLoading, quizzes, isEmpty } = useQuizzes();
+  const { isLoading, quizzes } = useQuizzes();
 
   if (isLoading) return <Spinner />;
+
+  // How to decide a quiz is trending is by counting its no of impression > 10
+  const trendingQuizzes = quizzes.filter((quiz) => quiz.impressions > 10);
+  const isEmpty = !isLoading && trendingQuizzes.length === 0;
 
   return (
     <QuizzesContainer>
       <Heading as="h2">Trending Quizzes</Heading>
       {!isEmpty ? (
         <QuizList className="custom-scrollbar">
-          {quizzes.map((quiz, index) => (
+          {trendingQuizzes.map((quiz, index) => (
             <Card key={index}>
               <Info>
                 <Title>{quiz.title}</Title>
