@@ -200,7 +200,13 @@ function AuthForm() {
             </FormRow>
           )}
           <Button type="submit" size="extra-large" disabled={isWorking}>
-            {isSignUp ? (isWorking ? "Creating..." : "Sign Up") : "Log In"}
+            {isSignUp
+              ? isWorking
+                ? "Creating..."
+                : "Sign Up"
+              : isWorking
+              ? "Processing..."
+              : "Log In"}
           </Button>
         </Form>
       </FormContainer>
